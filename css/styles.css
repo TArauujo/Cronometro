@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+}
+
+h1{
+    color:aliceblue;
+    height: 60px;
+}
+
+div{
+    text-align: center;
+    width: 30%;
+    height: 41px;;
+    margin: auto;
+}
+
+button{
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.btnIniciar{
+    background: green;
+    color: aqua;
+    border-radius: 3px;
+    border-color: green;
+    font-weight: 600;
+}
+
+.btnPausar{
+    background: yellow;
+    color: brown;
+    border-radius: 3px;
+    border-color: yellow;
+    font-weight: 600;
+}
+
+.btnParar{
+    background: red;
+    color:black;
+    border-radius: 3px;
+    border-color: red;
+    font-weight: 600;
+}
